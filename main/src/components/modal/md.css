@@ -1,0 +1,172 @@
+.close {
+  /* position: fixed; */
+  top: var(--norm-padding);
+  right: var(--norm-padding);
+  background-color: rgba(112, 128, 144, 0.122);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  pointer-events: all;
+  position: absolute;
+}
+
+.inner-modal {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  padding-bottom: 20px !important;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.p-modal {
+  height: 0;
+  /* overflow-y: scroll; */
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+  top: 0;
+  left: 0;
+  z-index: 299929932;
+}
+
+.open {
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  padding: 15px;
+}
+
+.lil {
+  font-size: 11px;
+}
+
+.open::-webkit-scrollbar {
+  display: none;
+}
+
+.md-logo {
+  font-size: var(--logo-responsive);
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.content {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-bottom: 20px;
+}
+
+.md-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content p {
+  /* color: slategray; */
+}
+.buttons h2 {
+  color: var(--black);
+  font-size: 1rem;
+}
+
+sub {
+  color: var(--blue);
+  text-align: center;
+  font-size: 1rem;
+}
+
+svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btns a {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  max-height: 45px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: var(--medium-font);
+  padding: 20px;
+  /* background-color: whitesmoke; */
+}
+
+.fb {
+  background-color: #1877f2;
+  color: white;
+}
+
+.gl .btn-txt {
+  color: #000;
+}
+
+.md-logo {
+  font-size: 2rem;
+}
+
+.lit {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.md-txt,
+sub {
+  color: rgb(28, 31, 34);
+  font-size: var(--medium-font);
+}
+
+.ig {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: white;
+}
+
+.gl {
+  background-color: rgba(174, 182, 190, 0.275);
+}
+
+hr {
+  width: 30px;
+  border: none;
+  box-shadow: 1px 0px 0px 0.125px #000;
+}
+
+.sepe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@media screen and(min-width: 768px) {
+  .open {
+    overflow-y: scroll;
+  }
+}

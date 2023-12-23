@@ -1,0 +1,77 @@
+.contestants {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: var(--norm-padding);
+  z-index: 0;
+}
+
+.c-title {
+  color: var(--blue) !important;
+}
+
+.cont {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.det {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: 3;
+  background: linear-gradient(
+    to bottom,
+    transparent 5%,
+    rgba(0, 0, 0, 0.758) 100%
+  );
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+  padding: var(--norm-padding);
+}
+
+.name {
+  color: var(--yellow);
+  font-size: var(--medium-font);
+}
+
+.country {
+  color: white;
+  font-size: calc(0.5rem + 1vw);
+}
+
+.see {
+  background-color: transparent;
+  color: var(--blue) !important;
+  color: var(--yellow);
+  align-self: center;
+  justify-self: center;
+  /* border-radius: 30px; */
+  margin-top: 20px;
+  width: 100%;
+  font-size: calc(0.8rem + 1vw);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.see:active {
+  background-color: var(--blue);
+  color: white !important;
+}
+
+.see.disabled:active {
+  background-color: transparent;
+  color: slategray !important;
+}
+
+.become {
+  align-self: center;
+  width: 100%;
+}
+
+.disabled {
+  color: slategray !important;
+}

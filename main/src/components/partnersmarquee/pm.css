@@ -1,0 +1,33 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.p-title {
+  text-transform: uppercase;
+  color: slategray;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  /* border-bottom: 1px solid slategray; */
+  font-weight: 600;
+  padding: var(--norm-padding) 30px;
+}
+
+.p-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.p-img img {
+  max-width: 130px;
+}

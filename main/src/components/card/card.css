@@ -1,0 +1,13 @@
+.how-to-p {
+  padding: var(--norm-padding) !important;
+}
+
+.h-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.models {
+  background-color: var(--blue);
+  color: white;
+}
