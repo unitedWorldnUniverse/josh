@@ -1,0 +1,96 @@
+.prof-pic {
+  border-radius: 10px;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.country {
+  color: slategray;
+  font-weight: 500;
+}
+
+.cname {
+  /* font-size: var(--big-font); */
+  color: #fe3859 !important;
+}
+.bio {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #111;
+}
+
+.about {
+  color: #111;
+  margin-top: 10px;
+}
+
+.vote {
+  background-color: var(--blue);
+  background: #27c4f5 -webkit-gradient(linear, left top, right top, from(#27c4f5), color-stop(#a307ba), color-stop(#fd8d32), color-stop(#70c050), to(#27c4f5));
+  background: transparent
+    linear-gradient(
+      to right,
+      #27c4f5,
+      #a307ba,
+      var(--yellow),
+      #70c050,
+      var(--blue)
+    );
+  background-size: 500%;
+  -webkit-animation: 10s linear infinite barprogress;
+  animation: 10s linear infinite barprogress;
+  color: white;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+@-webkit-keyframes barprogress {
+  0% {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: 125% 0;
+  }
+}
+@keyframes barprogress {
+  0% {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: 125% 0;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.pp {
+  /* font-weight: 400; */
+  color: var(--blue) !important;
+  font-size: calc(1rem + 2vw);
+}
