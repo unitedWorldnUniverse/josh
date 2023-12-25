@@ -1,7 +1,7 @@
 .close {
   /* position: fixed; */
-  top: var(--norm-padding);
-  right: var(--norm-padding);
+  top: 0;
+  right:0 ;
   background-color: rgba(112, 128, 144, 0.122);
   padding: 10px;
   display: flex;
