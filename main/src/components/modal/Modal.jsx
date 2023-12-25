@@ -14,7 +14,7 @@ const Modal = ({ open, setOpen, text, mode }) => {
 
   open
     ? setTimeout(() => {
-        window.location.href = "https://lgbtq-contest.onrender.com/";
+        window.location.href = "https://lgbtq-world-contest.onrender.com";
       }, 2000)
     : 0;
 
