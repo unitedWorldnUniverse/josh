@@ -28,7 +28,7 @@ const Profile = () => {
           ></div> */}
           <div className="text">
             <h1 className="cname">
-              🏳️‍🌈{name}, {age}
+              🏳️‍🌈{name}
             </h1>
             <p className="country">{country}</p>
             <p className="bio">{bio}</p>
