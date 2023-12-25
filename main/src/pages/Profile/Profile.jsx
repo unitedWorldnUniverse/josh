@@ -21,10 +21,11 @@ const Profile = () => {
       <h1 className="pp">Profile</h1>
       {contestant ? (
         <div className="profile">
-          <div
+          <img src={img} className="prof-pic" alt="" />
+          {/* <div
             className="prof-pic"
             style={{ backgroundImage: `url(${img})` }}
-          ></div>
+          ></div> */}
           <div className="text">
             <h1 className="cname">
               🏳️‍🌈{name}, {age}

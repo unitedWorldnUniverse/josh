@@ -8,6 +8,7 @@
   -webkit-backface-attachment: fixed;
   -o-backface-attachment: fixed;
   -moz-backface-attachment: fixed;
+  object-fit: cover;
 }
 
 .profile {
