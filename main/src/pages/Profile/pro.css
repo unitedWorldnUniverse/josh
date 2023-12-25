@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  -webkit-backface-attachment: fixed;
+  -o-backface-attachment: fixed;
+  -moz-backface-attachment: fixed;
 }
 
 .profile {
