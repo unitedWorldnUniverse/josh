@@ -96,3 +96,7 @@ a {
   font-size: 1.5rem;
   display: none;
 }
+
+.btn-txt {
+  color: #000000;
+}
