@@ -57,11 +57,11 @@ export const galContestants = [
   },
   {
     img: "/gay.jpg",
-    name: "Chris Newman",
+    name: "Billy Lowery",
     country: "USA",
-    bio: "Chris brings an elegant and timeless beauty to the modeling world. His portfolio includes high-end fashion and editorial work.",
+    bio: "Billy brings an elegant and timeless beauty to the modeling world. His portfolio includes high-end fashion and editorial work.",
     about:
-      "Chris is fluent in multiple languages and is passionate about promoting cultural exchange in the fashion industry.",
+      "Billy is fluent in multiple languages and is passionate about promoting cultural exchange in the fashion industry.",
     cn: "big",
     id: "ci388",
   },
